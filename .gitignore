@@ -1,0 +1,6 @@
+.env
+.venv
+__pycache__
+faiss_index
+API_Test.py
+chat_history.xlsx

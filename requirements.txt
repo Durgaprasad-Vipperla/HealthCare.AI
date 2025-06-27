@@ -1,0 +1,11 @@
+streamlit
+openpyxl
+python-dotenv
+faiss-cpu
+PyPDF2
+ragas
+google-generativeai
+langchain
+langchain-community
+langchain-core
+langchain_google_genai
