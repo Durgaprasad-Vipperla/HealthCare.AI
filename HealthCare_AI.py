@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import google.generativeai as genai
 from dotenv import load_dotenv
-from CanvasLLMWrapper import CanvasLLM
+from CustomLLMWrapper import CustomLLM
 from PyPDF2 import PdfReader
 from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -62,13 +62,16 @@ def get_embedding_model():
 
 # Configuring the LLM model
 def get_llm():
+    '''Select any one of the below models'''
+    #----Google Gemini LLM----
     # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
     # Google_Model = ChatGoogleGenerativeAI(
     #     model="gemini-pro",
     #     temperature=0.1
     # )
 
-    Canvas_Model = CanvasLLM()
+    #----Custom LLM----
+    Canvas_Model = CustomLLM()
     return Canvas_Model
 
 # Initiation of the FAISS Vector Database

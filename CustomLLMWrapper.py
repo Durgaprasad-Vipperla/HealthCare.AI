@@ -6,7 +6,7 @@ from typing import Dict, Any, Optional, List
 
 load_dotenv()
 
-class CanvasLLM(LLM):
+class CustomLLM(LLM):
 
     def _call(self, prompt: str, stop: Optional[List[str]] = None, *args, **kwargs) -> str:
         """Send request to FastAPI model and return response."""

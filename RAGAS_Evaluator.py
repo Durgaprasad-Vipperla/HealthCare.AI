@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from CanvasLLMWrapper import CanvasLLM
+from CustomLLMWrapper import CanvasLLM
 from ragas import EvaluationDataset, evaluate
 from ragas.llms import LangchainLLMWrapper
 from ragas.metrics import LLMContextPrecisionWithReference, LLMContextRecall, Faithfulness, FactualCorrectness, LLMContextPrecisionWithoutReference, AnswerRelevancy

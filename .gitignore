@@ -1,4 +1,5 @@
 .env
+.gitignore
 .venv
 __pycache__
 faiss_index
