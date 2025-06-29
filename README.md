@@ -22,5 +22,6 @@
 - `PyMuPDF / PDFPlumber` (for medical PDF parsing)
 - `Tiktoken` (for token counting and chunking)
 
-## 📦 Project Structure
+## Disclaimer: 
+HealthCare.AI is not a substitute for professional medical advice. Always consult a qualified healthcare provider regarding medical concerns.
 
