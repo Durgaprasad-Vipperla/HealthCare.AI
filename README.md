@@ -19,7 +19,7 @@
 - `Streamlit` (for UI)
 - `Langchain`
 - `FAISS` (for vector database)
-- `Google Gemini / Custom LLM API` (LLM)
+- `Google Gemini(LLM/Embedding Model) / Custom LLM API`
 - `PyPDF2` (for medical PDF parsing)
 
 ## ⚠️ Disclaimer 
