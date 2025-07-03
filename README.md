@@ -20,7 +20,7 @@
 - `Langchain`
 - `FAISS` (for vector database)
 - `Google Gemini(LLM/Embedding Model) / Custom LLM API`
-- `PyPDF2` (for medical PDF parsing)
+- `PyPDF2` (for PDF parsing)
 
 ## ⚠️ Disclaimer 
 
